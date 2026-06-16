@@ -2,13 +2,13 @@ print("Welcome to our E-Commerce Store!")
 username = input("Please enter your name: ")
 password = input("Please enter your password: ")
 products =["TV", "laptop", "Subwoofer", "Fibre Cables", "Smartphone", "Headphones", "Speakers", "Router", "Printer", "Sony Camera"]
-locations = ["kampala", "juba", "khartoum", "nairobi", "dar es salaam"]
+locations = ["kampala", "masaka", "mukono", "gulu", "busia"]
 locationdiscounts = {
     "kampala": 0.10,
-    "juba": 0.15,
-    "khartoum": 0.20,
-    "nairobi": 0.25,
-    "dar es salaam": 0.30
+    "masaka": 0.15,
+    "mukono": 0.20,
+    "gulu": 0.25,
+    "busia": 0.30
 }
 if username == "admin" and password == "adminpwd123":
     print("Login successful! Welcome, admin.")
