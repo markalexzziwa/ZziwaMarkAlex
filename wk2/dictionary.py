@@ -1,8 +1,10 @@
+print('Dictionaries')
 Shoes = {
     'brand':'Nike',
     'colour':'Black',
     'size':40
 }
+
 print(Shoes)
 print(f'Shoe size is {Shoes['size']}')
 
@@ -36,11 +38,11 @@ print('\nRemove colour')
 remove_colour = Shoes.pop('colour')
 print(Shoes)
 
-print('\nEmpty the Dictionary')
+print('\nEmptying the Dictionary')
 Shoes.clear()
 print(Shoes)
 
-print('Make a copy of a dictionary')
+print('\nMake a copy of a dictionary')
 print('car')
 car={
     'brand' : 'BMW',
@@ -50,20 +52,20 @@ car={
 }
 print(car)
 carcopy= car.copy()
-print(f'copy\n{carcopy}')
+print(f'carcopy\n{carcopy}')
 
 print('\nNested dictionaries')
 garage={
     'car1':{
         'brand' : 'BMW',
         'model' : '335i',
-        'year' : 2016,
+        'year' : 2018,
         'country' : 'Germany'
     },
     'car2':{
         'brand' : 'Subaru',
-        'model' : 'vab',
-        'year' : 2014,
+        'model' : 'VAB',
+        'year' : 2016,
         'country' : 'Japan'
     },
     'car3':{
@@ -73,4 +75,4 @@ garage={
         'country' : 'Germany'
     }
 }
-print(garage)
+print(f'Garage\n{garage}')
