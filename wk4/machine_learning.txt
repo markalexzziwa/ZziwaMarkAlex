@@ -1,0 +1,14 @@
+Introduction to machine Learning
+    Artificial intelligence (AI)
++ Machine Learning is broader than AI
++ ability of computer to learn from data.
+# supervised (labbelled) and unsupervised (unlabbelled) Learning
+# Reienforcement Learning(Rewards)
+
+Role of ML
++Data Eng
++Data Analysts
++Data Scientists
++ML Eng
+++Bussines intelligence
+

@@ -1,0 +1,15 @@
+2026-07-01 08:46:49 - INFO - Initialized empty CSV storage file: students.csv
+2026-07-01 08:46:49 - INFO - Initialized empty JSON storage file: students.json
+2026-07-01 08:54:41 - INFO - Created JSON file: students_details.json
+2026-07-01 08:54:41 - INFO - Student Management System initialized
+2026-07-01 08:56:06 - WARNING - Add student failed: Registration number must be alphanumeric and at least 3 characters long
+2026-07-01 08:56:19 - INFO - Retrieved 0 students from CSV
+2026-07-01 08:57:29 - INFO - Retrieved 0 students from CSV
+2026-07-01 08:57:29 - INFO - Student added successfully: 36356sg
+2026-07-01 08:57:34 - INFO - Retrieved 1 students from CSV
+2026-07-01 08:57:34 - ERROR - Error reading JSON file: 'Registration_Number'
+2026-07-01 08:57:34 - ERROR - Error in display all students: 'Registration_Number'
+2026-07-01 08:58:04 - INFO - Retrieved 1 students from CSV
+2026-07-01 08:58:04 - ERROR - Error reading JSON file: 'Registration_Number'
+2026-07-01 08:58:04 - ERROR - Unexpected error in update: 'Registration_Number'
+2026-07-01 08:59:43 - INFO - System exited successfully
